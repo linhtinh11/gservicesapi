@@ -1,9 +1,10 @@
 Google services api for nodejs
-(current version supports google cloud print only, pull request to me if you need others and welcome if you want to contribute to this respository)
 ===
+(current version supports google cloud print only, pull request to me if you need others and welcome if you want to contribute to this respository)
 
 ### To use in nodejs
-
+Example usage
+-------------
 var gservices = require('gservices');
 ...
 // auth.google.accessToken that you got in google authentication oauth2 (see everyauth for example)
@@ -25,6 +26,7 @@ print.submit('printerID'
                 console.log(data);
             }
 );
+```
 
 ### To run the tests:
 
